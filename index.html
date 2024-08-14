@@ -81,9 +81,73 @@
             <img class="run-image" src="images/run1.jpg" alt="">
         </div>
        </section>
-       <section>
-        <div>
-            
+       <section class="bmi-section">
+        <div class="bmi-main">
+            <h1 class="bmi-heading">BMI Calculator</h1>
+            <p class="bmi-pragraph">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+        </div>
+        <div class="bmi-full">
+            <div class="bmi-centre">
+                <h1 class="table-heading">BMI Calculator Chart</h1>
+                <table class="main-table">
+                    <thead>
+                        <tr>
+                            <th id="table-title">BMI</th>
+                            <th id="table-title">Weight Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="calculate-full">
+                <div>
+                    <h1 class="Calculatebmi-heading">Calculate your BMI</h1>
+                <p class="Calculatebmi-pragraph">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
+                </div>
+                <div>
+                    <form class="spacing">
+                        <label for="">
+                            <input class="gender" type="text" placeholder="Height/cm">
+                        </label>
+                        <label for="">
+                            <input class="gender" type="number" placeholder="Weight/kg">
+                        </label>
+                        <br>
+                        <label for="">
+                            <input class="gender" type="number" placeholder="Age">
+                        </label>
+                        <select name="" id="" class="gender2">
+                            <option value="gender">gender</option>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                        </select>
+                        <br>
+                        <select class="gender-1" name="" id="">
+                            <option value="Select an activity factor">Select an activity factor</option>
+                            <option value="Like">Like</option>
+                            <option value="Unlike">Unlike</option>
+                        </select>
+                    </form>
+                    <button class="btn">Calculate</button>
+                </div>
+            </div>
         </div>
        </section>
     </main>

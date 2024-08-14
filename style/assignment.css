@@ -51,7 +51,7 @@ nav ul{
     border-color: white;
 }
 .banner-description{
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .banner-description-1{
@@ -110,13 +110,13 @@ margin-top: 350px;
     font-weight: bolder;
 }
 .habit-description{
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
 }
 .heading-1{
     color: white;
 }
 .pragraph-1{
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
 }
 .bg-1{
     border-radius: 50%;
@@ -136,7 +136,7 @@ margin-top: 350px;
     font-weight: bolder;
 }
 .run-pragraph{
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     margin-bottom: 34px;
 }
 .b{
@@ -159,4 +159,73 @@ margin-top: 350px;
     background-color: rgba(34, 34, 34, 1);
     margin: 100px 190px 100px 190px;
     border-radius: 18px;
+}
+.bmi-heading{
+    color: white;
+}
+.bmi-pragraph{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-main{
+    text-align: center;
+}
+/* Table section */
+table{
+    border-collapse: collapse;
+}
+td, th{
+     border: 1px solid white;
+     padding: 5px 10px;
+     color: rgba(255, 255, 255, 0.5);
+}
+.table-heading{
+    color: white;
+}
+.main-table{
+    color: white;
+}
+#table-title{
+    color: white;
+}
+/* Bmi section */
+
+
+.Calculatebmi-heading{
+    color: white;
+}
+.Calculatebmi-pragraph{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-full{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+    align-items: center;
+}
+.calculate-full{
+    margin: 49px 189px 52px 175px;
+}
+.spacing{
+    margin-bottom: 30px;
+}
+.bmi-centre{
+    margin: 100px 100px 133px 100px;
+}
+.bmi-section{
+    max-width: 1440px;
+}
+.gender{
+    width: 170px;
+    height: 30px;
+    margin-bottom: 12px;
+}
+.gender-1{
+    height: 30px;
+    width: 360px;
+    margin-bottom: 12px;
+}
+.gender2{
+    height: 35px;
+    width: 178px;
+    margin-bottom: 12px;
 }
