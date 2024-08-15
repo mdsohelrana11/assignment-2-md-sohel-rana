@@ -162,6 +162,8 @@ margin-top: 350px;
 }
 .bmi-heading{
     color: white;
+    font-size: 48px;
+    font-weight: bolder;
 }
 .bmi-pragraph{
     color: rgba(255, 255, 255, 0.5);
@@ -203,7 +205,7 @@ td, th{
     align-items: center;
 }
 .calculate-full{
-    margin: 49px 189px 52px 175px;
+    margin: 49px 70px 52px 175px;
 }
 .spacing{
     margin-bottom: 30px;
@@ -215,17 +217,116 @@ td, th{
     max-width: 1440px;
 }
 .gender{
+    color: rgba(255, 255, 255, 0.5);;
+    background-color: rgba(255, 255, 255, 0.1);
     width: 170px;
     height: 30px;
     margin-bottom: 12px;
+    border: none;
+    border-radius: 8px;
 }
 .gender-1{
+    color: rgba(255, 255, 255, 0.5);;
+    background-color: rgba(255, 255, 255, 0.1);
     height: 30px;
-    width: 360px;
+    width: 355px;
     margin-bottom: 12px;
+    border: none;
+    border-radius: 8px;
 }
 .gender2{
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
     height: 35px;
-    width: 178px;
+    width: 176px;
     margin-bottom: 12px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Meet Section */
+.meet-heading{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.meet-pragraph{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 60px;
+}
+.meet-main{
+    text-align: center;
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(97, 93, 93, 0.2);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.grid-1{
+    color: white;
+    margin-bottom: -10px;
+}
+.grid-pragraph{
+    color: rgba(255, 255, 255, 0.5);
+}
+.grid-2{
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 25px;
+}
+.grid-image{
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.grid-gap{
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.miami-font{
+    font-family: 'Miama', sans-serif;
+    font-size: 78px;
+    font-weight: 400;
+}
+/* Footer section */
+.footer-heading{
+    color: rgba(230, 83, 60, 1);
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+.footer-title{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 39px;
+}
+.footer-pragraph{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -20px;
+}
+.footer-main{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-main-1{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-pragraph-1{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-finish{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding-bottom: 30px;
 }
