@@ -6,6 +6,9 @@ nav{
     margin: 0px 190px;
     
 }
+.manu-icon{
+    display: none;
+}
 .gradient{
     background-image: linear-gradient(to top, black, rgba(32,32,32));
 
@@ -331,4 +334,384 @@ td, th{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     padding-bottom: 30px;
+}
+
+/* Mobile Device */
+
+@media screen and (max-width:576px) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 15px;
+        
+    }
+    .manu-item{
+        display: flex;
+        align-items: center;
+    }
+    .manu-icon{
+        display: block;
+        margin-left: 220px;
+    }
+    .mobile{
+        margin-left: -120px;
+    }
+    .gradient{
+        background-image: linear-gradient(to top, black, rgba(32,32,32));
+    
+    }
+    .full{
+        background-color: black;
+    }
+    
+    .heading{
+        color: rgba(230, 83, 60, 1);
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    nav ul li{
+        list-style: none;
+        margin-right: 45px;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 400px;
+    }
+    nav ul{
+        display: none;
+        align-items: center;
+    }
+    
+    /* shared items */
+    .btn{
+        background-color: rgba(230, 83, 60, 1);
+        border-radius: 46px;
+        color: white;
+        padding: 8px 20px;
+        font-size: 18px;
+        border: none;
+        margin-right: 10px;
+    }
+    .buttoo{
+        align-items: center;
+        padding: 15px 100px 15px 100px;
+        margin-left: 15px;
+    }
+    .btn-2{
+        background-color: black;
+        border-radius: 46px;
+        color: white;
+        padding: 8px 20px;
+        font-size: 18px;
+        border-color: white;
+    }
+    .for-mobile{
+        display: flex;
+    }
+    .mobile-1{
+        display: none;
+    }
+    .banner-description{
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .banner-description-1{
+        color: white;
+        font-size: 45px;
+        font-weight: bolder;
+    }
+    .banner-content{
+        margin-left: -175px;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 190px;
+        padding-right: 79px;
+    }
+    
+    .num-1{
+        color: white;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .num-2{
+        color: white;
+        font-size: 16px;
+    }
+    .extra{
+    background-color: rgba(48, 48, 48, 0.54);
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 12px;
+    gap: 10px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: -320px;
+    margin-top: 650px;
+    }
+    .extra-3{
+        color: white;
+        background-color: rgba(48, 48, 48, 0.54);
+        border-radius: 12px;
+        padding: 5px 15px 5px 15px;
+        margin: 450px -65px 0 0;
+        position: absolute;
+    }
+    .num-3{
+        font-size: 40px;
+    }
+    .num-4{
+        font-size: 14px;
+    }
+    
+    /* Change habit section */
+    .habit{
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    .habit-description{
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .heading-1{
+        color: white;
+    }
+    .pragraph-1{
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .bg-1{
+        border-radius: 50%;
+    }
+    .bg-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-title{
+        margin: 5px 10px 10px 10px;
+        text-align: center;
+    }
+    /* run section */
+    .run-heading{
+        color: white;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .run-pragraph{
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 34px;
+    }
+    .mobile-2{
+        display: none;
+    }
+    .b{
+        align-items: center;
+        max-width: 1060px;
+        padding: 30px 30px 20px 30px;
+    }
+    
+    .a{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .run-image{
+        width: 90%;
+        padding: 30px 32px 30px 0px;
+        border-radius: 15%;
+        margin-left: 15px;
+    }
+    .run-section{
+        background-color: rgba(34, 34, 34, 1);
+        margin: 20px 20px 20px 20px;
+        border-radius: 18px;
+    }
+    .bmi-heading{
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    .bmi-pragraph{
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .bmi-main{
+        text-align: start;
+        margin-left: 15px;
+    }
+    /* Table section */
+    table{
+        border-collapse: collapse;
+    }
+    td, th{
+         border: 1px solid white;
+         padding: 5px 10px;
+         color: rgba(255, 255, 255, 0.5);
+    }
+    .table-heading{
+        color: white;
+        margin-left: -10px;
+    }
+    .main-table{
+        color: white;
+    }
+    #table-title{
+        color: white;
+    }
+    /* Bmi section */
+    
+    
+    .Calculatebmi-heading{
+        color: white;
+    }
+    .Calculatebmi-pragraph{
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .bmi-full{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgba(34, 34, 34, 1);
+        align-items: center;
+    }
+    .calculate-full{
+        margin: 49px 70px 52px 70px;
+    }
+    .spacing{
+        margin-bottom: 30px;
+    }
+    .bmi-centre{
+        margin: 20px 100px 10px 5px;
+    }
+    .bmi-section{
+        max-width: 1440px;
+    }
+    .gender{
+        color: rgba(255, 255, 255, 0.5);;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 170px;
+        height: 30px;
+        margin-bottom: 12px;
+        border: none;
+        border-radius: 8px;
+    }
+    .gender-1{
+        color: rgba(255, 255, 255, 0.5);;
+        background-color: rgba(255, 255, 255, 0.1);
+        height: 30px;
+        width: 355px;
+        margin-bottom: 12px;
+        border: none;
+        border-radius: 8px;
+    }
+    .gender2{
+        color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.1);
+        height: 35px;
+        width: 176px;
+        margin-bottom: 12px;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    /* Meet Section */
+    .meet-heading{
+        color: white;
+        font-size: 48px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .meet-pragraph{
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 60px;
+    }
+    .meet-main{
+        text-align: center;
+        margin-bottom: -40px;
+    }
+    .grid-main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: rgba(97, 93, 93, 0.2);
+        border-radius: 15px;
+        
+    }
+    .grid-1{
+        color: white;
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+    .grid-pragraph{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    .grid-2{
+        position: absolute;
+        margin-top: -95px;
+        margin-left: 55px;
+    }
+    .grid-image{
+        border-radius: 15px;
+        margin-left: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .grid-gap{
+        margin-left: 42px;
+        margin-right: 42px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .miami-font{
+        font-family: 'Miama', sans-serif;
+        font-size: 78px;
+        font-weight: 400;
+    }
+    /* Footer section */
+    .footer-heading{
+        color: rgba(230, 83, 60, 1);
+        font-size: 70px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        margin-top: 32px;
+        margin-left: 15px;
+    }
+    .footer-title{
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 39px;
+        margin-left: 15px;
+    }
+    .footer-pragraph{
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: -20px;
+        margin-left: 15px;
+    }
+    .footer-main{
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .footer-main-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer-pragraph-1{
+        color: rgba(255, 255, 255, 0.5);
+        margin-left: 15px;
+    }
+    .footer-finish{
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
 }
